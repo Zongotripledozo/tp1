@@ -1,0 +1,159 @@
+15:39:28 [coap-server] Serveur CoAP démarré sur coap://[::1]:5683
+15:39:30 [coap-server] GET /temp from [::1]:52444 [Observe register]
+15:39:30 [coap-server] /temp : 1 observateur(s)
+15:39:37 [coap-server] GET /temp from [::1]:55720 [Observe register]
+15:39:37 [coap-server] /temp : 2 observateur(s)
+15:39:38 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:39:41 [coap-server] Retransmission, Message ID: 25666.
+15:39:41 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:39:44 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:39:44 [coap-server] GET /time from [::1]:56230
+15:39:45 [coap-server] Retransmission, Message ID: 25666.
+15:39:45 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:39:47 [coap-server] Retransmission, Message ID: 25671.
+15:39:47 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:39:52 [coap-server] Retransmission, Message ID: 25671.
+15:39:52 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:39:53 [coap-server] GET /temp from [::1]:58585 [Observe register]
+15:39:53 [coap-server] /temp : 3 observateur(s)
+15:39:54 [coap-server] Retransmission, Message ID: 25666.
+15:39:54 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:40:00 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:40:03 [coap-server] Retransmission, Message ID: 25690.
+15:40:03 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:40:03 [coap-server] Retransmission, Message ID: 25671.
+15:40:03 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:40:07 [coap-server] Retransmission, Message ID: 25690.
+15:40:07 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:40:13 [coap-server] Retransmission, Message ID: 25666.
+15:40:13 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:40:16 [coap-server] Retransmission, Message ID: 25690.
+15:40:16 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:40:24 [coap-server] Retransmission, Message ID: 25671.
+15:40:24 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:40:34 [coap-server] Retransmission, Message ID: 25690.
+15:40:34 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:40:43 [coap-server] GET /biglog from [::1]:52463
+15:40:43 [coap-server] GET /biglog from [::1]:52463 [Block2 num=1 size=1024]
+15:40:50 [coap-server] Exchange timed out trying to transmit <aiocoap.Message: 2.05 Content to <aiocoap.transports.simplesocketserver._Address via <aiocoap.transports.simplesocketserver._DatagramServerSocketSimple object at 0x00000201870F1FD0> to ('::1', 52444, 0, 0)>, 2 option(s), 4 byte(s) payload, token 5daa, CON, MID 0x6442>
+15:40:50 [coap-server] /temp : 2 observateur(s)
+15:41:04 [coap-server] GET /temp from [::1]:64103
+15:41:04 [coap-server] GET /biglog from [::1]:64104 [Block2 num=0 size=256]
+15:41:04 [coap-server] GET /biglog from [::1]:64104 [Block2 num=1 size=256]
+15:41:04 [coap-server] GET /biglog from [::1]:64104 [Block2 num=2 size=256]
+15:41:04 [coap-server] GET /biglog from [::1]:64104 [Block2 num=3 size=256]
+15:41:04 [coap-server] GET /biglog from [::1]:64104 [Block2 num=4 size=256]
+15:41:04 [coap-server] GET /biglog from [::1]:64104 [Block2 num=5 size=256]
+15:41:04 [coap-server] GET /biglog from [::1]:64104 [Block2 num=6 size=256]
+15:41:04 [coap-server] GET /temp from [::1]:64105 [Observe register]
+15:41:04 [coap-server] /temp : 3 observateur(s)
+15:41:06 [coap-server] Exchange timed out trying to transmit <aiocoap.Message: 2.05 Content to <aiocoap.transports.simplesocketserver._Address via <aiocoap.transports.simplesocketserver._DatagramServerSocketSimple object at 0x00000201870F1FD0> to ('::1', 55720, 0, 0)>, 2 option(s), 4 byte(s) payload, token 519a, CON, MID 0x6447>
+15:41:06 [coap-server] /temp : 2 observateur(s)
+15:41:09 [coap-server] Exchange timed out trying to transmit <aiocoap.Message: 2.05 Content to <aiocoap.transports.simplesocketserver._Address via <aiocoap.transports.simplesocketserver._DatagramServerSocketSimple object at 0x00000201870F1FD0> to ('::1', 58585, 0, 0)>, 2 option(s), 4 byte(s) payload, token c845, CON, MID 0x645a>
+15:41:09 [coap-server] /temp : 1 observateur(s)
+15:41:11 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:41:13 [coap-server] Retransmission, Message ID: 25786.
+15:41:13 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:41:18 [coap-server] Retransmission, Message ID: 25786.
+15:41:18 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:41:27 [coap-server] Retransmission, Message ID: 25786.
+15:41:27 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:41:28 [coap-server] GET /time from [::1]:55434
+15:41:29 [coap-server] GET /temp from [::1]:55435
+15:41:29 [coap-server] PUT /temp from [::1]:55436 payload='30.5'
+15:41:29 [coap-server] PUT /temp from [::1]:55437 payload='abc'
+15:41:30 [coap-server] GET /led from [::1]:55438
+15:41:30 [coap-server] PUT /led from [::1]:55439 payload='on'
+15:41:31 [coap-server] PUT /led from [::1]:55440 payload='blink'
+15:41:31 [coap-server] PUT /led from [::1]:55441 payload='off'
+15:41:31 [coap-server] GET /led from [::1]:55442
+15:41:32 [coap-server] DELETE /logs from [::1]:55443
+15:41:32 [coap-server] POST /logs from [::1]:55444 payload='Capteur demarre'
+15:41:32 [coap-server] POST /logs from [::1]:55445 payload='Seuil depasse'
+15:41:33 [coap-server] GET /logs from [::1]:59736
+15:41:33 [coap-server] DELETE /logs from [::1]:59737
+15:41:34 [coap-server] GET /logs from [::1]:59738
+15:41:34 [coap-server] GET /sensors/room1/temperature from [::1]:58087
+15:41:34 [coap-server] GET /sensors/room1/humidity from [::1]:58088
+15:41:35 [coap-server] GET /sensors/room1/light from [::1]:58089
+15:41:35 [coap-server] GET /inexistant from [::1]:58090
+15:41:35 [coap-server] Render request raised a renderable error (NotFound()), responding accordingly.
+15:41:35 [coap-server] GET /temp from [::1]:57189 [Observe register]
+15:41:35 [coap-server] /temp : 2 observateur(s)
+15:41:45 [coap-server] Retransmission, Message ID: 25786.
+15:41:45 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:41:46 [coap-server] GET /temp from [::1]:59036 [Observe register]
+15:41:46 [coap-server] /temp : 3 observateur(s)
+15:41:47 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:41:50 [coap-server] Retransmission, Message ID: 25811.
+15:41:50 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:41:55 [coap-server] Retransmission, Message ID: 25811.
+15:41:55 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:41:56 [coap-server] GET /temp from [::1]:61530 [Observe register]
+15:41:56 [coap-server] /temp : 4 observateur(s)
+15:41:57 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:00 [coap-server] Retransmission, Message ID: 25826.
+15:42:00 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:05 [coap-server] Retransmission, Message ID: 25826.
+15:42:05 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:06 [coap-server] GET /temp from [::1]:62853 [Observe register]
+15:42:06 [coap-server] /temp : 5 observateur(s)
+15:42:06 [coap-server] GET /temp from [::1]:62854 [Observe register]
+15:42:06 [coap-server] /temp : 6 observateur(s)
+15:42:06 [coap-server] Retransmission, Message ID: 25811.
+15:42:06 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:07 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:10 [coap-server] Retransmission, Message ID: 25845.
+15:42:10 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:15 [coap-server] Retransmission, Message ID: 25826.
+15:42:15 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:16 [coap-server] Retransmission, Message ID: 25845.
+15:42:16 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:16 [coap-server] GET /.well-known/core from [::1]:61145
+15:42:17 [coap-server] GET /.well-known/core from [::1]:59473
+15:42:17 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:17 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:17 [coap-server] GET /biglog from [::1]:59474
+15:42:17 [coap-server] GET /biglog from [::1]:59474 [Block2 num=1 size=1024]
+15:42:18 [coap-server] GET /biglog from [::1]:57349
+15:42:18 [coap-server] GET /biglog from [::1]:57349 [Block2 num=1 size=1024]
+15:42:18 [coap-server] GET /biglog from [::1]:57350
+15:42:18 [coap-server] GET /biglog from [::1]:57350 [Block2 num=1 size=1024]
+15:42:18 [coap-server] GET /biglog from [::1]:57351 [Block2 num=0 size=256]
+15:42:18 [coap-server] GET /biglog from [::1]:57351 [Block2 num=1 size=256]
+15:42:18 [coap-server] GET /biglog from [::1]:57351 [Block2 num=2 size=256]
+15:42:18 [coap-server] GET /biglog from [::1]:57351 [Block2 num=3 size=256]
+15:42:18 [coap-server] GET /biglog from [::1]:57351 [Block2 num=4 size=256]
+15:42:18 [coap-server] GET /biglog from [::1]:57351 [Block2 num=5 size=256]
+15:42:18 [coap-server] GET /biglog from [::1]:57351 [Block2 num=6 size=256]
+15:42:19 [coap-server] GET /temp from [::1]:57352
+15:42:20 [coap-server] Retransmission, Message ID: 25877.
+15:42:20 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:20 [coap-server] Retransmission, Message ID: 25876.
+15:42:20 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:21 [coap-server] Exchange timed out trying to transmit <aiocoap.Message: 2.05 Content to <aiocoap.transports.simplesocketserver._Address via <aiocoap.transports.simplesocketserver._DatagramServerSocketSimple object at 0x00000201870F1FD0> to ('::1', 64105, 0, 0)>, 2 option(s), 4 byte(s) payload, token f2fe, CON, MID 0x64ba>
+15:42:21 [coap-server] /temp : 5 observateur(s)
+15:42:25 [coap-server] Retransmission, Message ID: 25877.
+15:42:25 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:25 [coap-server] Retransmission, Message ID: 25876.
+15:42:25 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:27 [coap-server] Retransmission, Message ID: 25845.
+15:42:27 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:29 [coap-server] Retransmission, Message ID: 25811.
+15:42:29 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:35 [coap-server] Retransmission, Message ID: 25877.
+15:42:35 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:36 [coap-server] Retransmission, Message ID: 25876.
+15:42:36 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:36 [coap-server] Retransmission, Message ID: 25826.
+15:42:36 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:50 [coap-server] Retransmission, Message ID: 25845.
+15:42:50 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:55 [coap-server] Retransmission, Message ID: 25877.
+15:42:55 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:42:57 [coap-server] Retransmission, Message ID: 25876.
+15:42:57 [coap-server] Ignoring error because it can not be mapped to any connection: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+15:43:13 [coap-server] Exchange timed out trying to transmit <aiocoap.Message: 2.05 Content to <aiocoap.transports.simplesocketserver._Address via <aiocoap.transports.simplesocketserver._DatagramServerSocketSimple object at 0x00000201870F1FD0> to ('::1', 57189, 0, 0)>, 2 option(s), 4 byte(s) payload, token 0816, CON, MID 0x64d3>
+15:43:13 [coap-server] /temp : 4 observateur(s)
+15:43:19 [coap-server] Exchange timed out trying to transmit <aiocoap.Message: 2.05 Content to <aiocoap.transports.simplesocketserver._Address via <aiocoap.transports.simplesocketserver._DatagramServerSocketSimple object at 0x00000201870F1FD0> to ('::1', 59036, 0, 0)>, 2 option(s), 4 byte(s) payload, token fbc9, CON, MID 0x64e2>
+15:43:19 [coap-server] /temp : 3 observateur(s)

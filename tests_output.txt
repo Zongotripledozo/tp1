@@ -1,0 +1,47 @@
+
+==================== MODULE 1 - Méthodes CoAP et codes retour ====================
+
+$ .venv/Scripts/aiocoap-client coap://localhost/time -v
+INFO:coap.aiocoap-client:Sending request:
+INFO:coap.aiocoap-client:GET to coap://localhost
+INFO:coap.aiocoap-client:- Uri-Host (3): 'localhost'
+INFO:coap.aiocoap-client:- Uri-Path (11): 'time'
+INFO:coap.aiocoap-client:No payload
+INFO:coap.aiocoap-client:Received response:
+INFO:coap.aiocoap-client:2.05 Content from coap://localhost
+INFO:coap.aiocoap-client:- Content-Format (12): <ContentFormat 0, media_type='text/plain; charset=utf-8'>
+INFO:coap.aiocoap-client:Payload: 323032362d30392d33305431333a3531... (25 bytes total)
+2026-09-30T13:51:25+00:00
+
+$ .venv/Scripts/aiocoap-client coap://localhost/temp
+23.4
+
+$ .venv/Scripts/aiocoap-client -m PUT --payload 30.5 coap://localhost/temp -v
+INFO:coap.aiocoap-client:Sending request:
+INFO:coap.aiocoap-client:PUT to coap://localhost
+INFO:coap.aiocoap-client:- Uri-Host (3): 'localhost'
+INFO:coap.aiocoap-client:- Uri-Path (11): 'temp'
+INFO:coap.aiocoap-client:Payload: 33302e35 (4 bytes)
+INFO:coap.aiocoap-client:Received response:
+INFO:coap.aiocoap-client:2.04 Changed from coap://localhost
+INFO:coap.aiocoap-client:- Content-Format (12): <ContentFormat 0, media_type='text/plain; charset=utf-8'>
+INFO:coap.aiocoap-client:Payload: 33302e35 (4 bytes)
+30.5
+
+$ .venv/Scripts/aiocoap-client -m PUT --payload abc coap://localhost/temp -v
+INFO:coap.aiocoap-client:Sending request:
+INFO:coap.aiocoap-client:PUT to coap://localhost
+INFO:coap.aiocoap-client:- Uri-Host (3): 'localhost'
+INFO:coap.aiocoap-client:- Uri-Path (11): 'temp'
+INFO:coap.aiocoap-client:Payload: 616263 (3 bytes)
+INFO:coap.aiocoap-client:Received response:
+INFO:coap.aiocoap-client:4.00 Bad Request from coap://localhost
+INFO:coap.aiocoap-client:- Content-Format (12): <ContentFormat 0, media_type='text/plain; charset=utf-8'>
+INFO:coap.aiocoap-client:Payload: 56616c65757220696e76616c69646520... (39 bytes total)
+4.00 Bad Request
+Valeur invalide : un nombre est attendu
+
+$ .venv/Scripts/aiocoap-client coap://localhost/led
+off
+
+$ .venv/Scripts/aiocoap-client -m PUT --payload on coap://localhost/led -v
